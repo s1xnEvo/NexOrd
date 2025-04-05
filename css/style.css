@@ -319,6 +319,16 @@ div {
   text-justify: distribute;
   word-break: break-word;
 }
+.post .post-content img {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  margin: 1.5em 0;
+  background: white;
+  transition: box-shadow 0.3s ease;
+}
+.post .post-content img:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
 .post .post-content h2 {
   margin: 1.4em 0 1.1em;
   border-bottom: 1px solid #eee;
@@ -349,28 +359,6 @@ div {
 }
 .post .post-content p a:hover {
   text-decoration: underline;
-}
-.post .post-content .image-caption {
-  display: inline-block;
-  margin: 1.5em 0;
-  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.1);
-  border-radius: 4px;
-  background: white;
-  text-align: center;
-  transition: box-shadow 0.3s ease;
-}
-.post .post-content .image-caption img {
-  display: block;
-  border-radius: 4px 4px 0 0;
-}
-.post .post-content .image-caption figcaption {
-  padding: 8px 12px;
-  font-size: 0.9em;
-  color: #666;
-  border-radius: 0 0 4px 4px;
-}
-.post .post-content .image-caption:hover {
-  box-shadow: 0 0 20px 8px rgba(0, 0, 0, 0.15);
 }
 .post .post-content .caption {
   color: #444;
