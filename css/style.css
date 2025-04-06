@@ -319,6 +319,16 @@ div {
   text-justify: distribute;
   word-break: break-word;
 }
+.post .post-content img {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  margin: 1.5em 0;
+  background: white;
+  transition: box-shadow 0.3s ease;
+}
+.post .post-content img:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
 .post .post-content h2 {
   margin: 1.4em 0 1.1em;
   border-bottom: 1px solid #eee;
