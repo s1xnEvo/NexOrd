@@ -320,11 +320,17 @@ div {
   word-break: break-word;
 }
 .post .post-content img {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  border-radius: 8px;
-  margin: 1.5em 0;
-  background: white;
+  border-radius: 18px;
+  /* 圆角大小 */
+  border: 5px solid rgba(98, 99, 100, 0.1);
+  /* 灰色边框 */
+  padding: 4px;
+  /* 边框内边距 */
+  max-width: 100%;
+  /* 响应式适配 */
   transition: box-shadow 0.3s ease;
+  height: auto;
+  /* 保持比例 */
 }
 .post .post-content img:hover {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
@@ -376,7 +382,7 @@ div {
 }
 .post .post-content img {
   max-width: 100%;
-  padding: 0.5em 0;
+  padding: 0;
   margin: auto;
   display: block;
 }
